@@ -20,7 +20,7 @@ services:
   environment:
    - TZ=Europe/Moscow
   volumes: 
-   - ./database:/var/lib/mysql
+   - ${APP_PATH_HOST}/database:/var/lib/mysql
 
  adminter:
   image: adminer
