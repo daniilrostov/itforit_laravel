@@ -17,6 +17,7 @@ services:
   restart: always
   environment:
    - MARIADB_ROOT_PASSWORD:et5dq0Ayp/6H
+   - MARIADB_DATABASE:itforit
   environment:
    - TZ=Europe/Moscow
   volumes: 
