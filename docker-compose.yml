@@ -3,8 +3,12 @@ version: '3.1'
 services: 
  web:
   build: ./web
+<<<<<<< HEAD
   environment: 
    - APACHE_RUN_USER=#1000
+=======
+  environment:
+>>>>>>> 69f79380507190bb4210af6580492752e9c5c5a8
    - TZ=Europe/Moscow
   volumes:
    - ${APP_PATH_HOST}:${APP_PATH_CONTAINER}
