@@ -4,7 +4,7 @@ services:
  web:
   build: ./web
   environment: 
-   - APACHE_RUN_USER=#1
+   - APACHE_RUN_USER=#1000
    - TZ=Europe/Moscow
   volumes:
    - ${APP_PATH_HOST}:${APP_PATH_CONTAINER}
